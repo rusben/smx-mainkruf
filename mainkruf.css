@@ -1,0 +1,12 @@
+* {
+  margin 0
+  box-sizing: border-box;
+}
+
+div { border: thin solid black; }
+
+#main-wrapper { margin: 0 auto;}
+
+header {background-color: black;}
+#main-menu { width: 30%; float: right;}
+#main-menu-form {width: 70%; float: none;}
