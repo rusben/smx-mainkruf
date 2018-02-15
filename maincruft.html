@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="file:///home/smx-mainkruf/mainkruf"/>
-</head>
+  <link rel="stylesheet" type="text/css" href="maincruf.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<body>
-  <header div class=login>
-  </header>
+  </head>
+  <body>
 
-  <div class=main>
-    <ul class="horizontal">
-    <a class="boton 1" href="https://minecraft.net/en-us/store/minecraft/?ref=m">Descargas</a>
-    <a class="boton 2" href="https://minecraft.net/en-us/realms/?ref=m">Realms</a>
-    <img src="mainkruf.png">
-    <a class="boton 3" href="https://minecraft.net/en-us/store/?ref=m">Tienda</a>
-    <a>Menu</a>
-  </ul>
+  <div class="header">
+    <a class="derecha" href="https://minecraft.net/en-us/login/?ref=gm">LOG IN</a>
+    <a class="derecha" href="https://minecraft.net/en-us/help/?ref=gm">HELP</a>
   </div>
+
+  <div id="navbar">
+    <a class="active" href="https://minecraft.net/en-us/store/minecraft/?ref=m">Descargas</a>
+    <a class="active" href="https://minecraft.net/en-us/realms/?ref=m">Realms</a>
+    <img src="mainkruf.png" alt="mainkruf">
+    <a class="active" href="https://minecraft.net/en-us/store/?ref=m">Tienda</a>
+    <a class="active" href="menu">Menu</a>
+
+    </menu>
+  </div>
+
+  <div class="content">
+    <img src="http://ultradicas.net/wp-content/uploads/2016/11/minecraft-download.png">
+    <h3>Sticky Navigation Example</h3>
+    <p>The navbar will stick to the top when you reach its scroll position.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  </div>
+
+  <script>
+  window.onscroll = function() {myFunction()};
+
+  var navbar = document.getElementById("navbar");
+  var sticky = navbar.offsetTop;
+
+  function myFunction() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky")
+    } else {
+      navbar.classList.remove("sticky");
+    }
+  }
+  </script>
+
   </body>
-</html>
+  </html>
