@@ -81,6 +81,8 @@ body {
   width: 100%
 }
 
-.sticky + .content {
+.sticky, .content {
   padding-top: 60px;
 }
+
+.fright { float: right !important;}
