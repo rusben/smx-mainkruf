@@ -1,19 +1,35 @@
+.clearfix {
+clear: both;
+
+}
 
 /* Style the navbar */
-#navbar {
- overflow: hidden;
- background-color: #333;
+nav {
+  overflow: hidden;
+  background-image: url("images/FONDO NAVBAR.png");
 }
 
 /* Navbar links */
-#navbar a {
- float: left;
- display: block;
- color: #f2f2f2;
- text-align: center;
- padding: 14px;
- text-decoration: none;
+nav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+nav a.active {
+  background-color: #333;
+  color: white;
+}
+
 
 /* Page content */
 .content {
@@ -40,40 +56,27 @@ body {
   font-size: 28px;
 }
 
-.header {
+header {
   background-color: #f1f1f1;
-  padding: 30px;
+  padding: 15px;
   text-align: center;
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #333;
-}
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
-#navbar a.active {
-  background-color: #333;
-  color: white;
-}
 
-.content {
-  padding: 16px;
-}
+#header-inner,#navbar-inner { width: 60%; margin: 0 auto; }
+
+
+#navbar-inner-left { width: 20%; float: left; }
+#navbar-inner-right { width: 20%; float: right; }
+
+#navbar-inner-center { width: 60%; float: left; text-align: center; }
+
+#indice { width: 50%; margin: 0 auto; }
+
+
 
 .sticky {
   position: fixed;
