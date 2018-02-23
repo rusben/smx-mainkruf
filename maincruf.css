@@ -49,6 +49,8 @@ nav a.active {
 }
 .derecha {
   float: right;
+  background-color: #010101;
+  color: white;
 }
 
 body {
@@ -57,7 +59,7 @@ body {
 }
 
 header {
-  background-color: #f1f1f1;
+  background-color: #010101;
   padding: 15px;
   text-align: center;
 }
@@ -66,7 +68,9 @@ header {
 
 
 
-#header-inner,#navbar-inner { width: 60%; margin: 0 auto; }
+#header-inner { background-color: #010101 width: 60%; margin: 0 auto; }
+
+#navbar-inner { width: 60%; margin: 0 auto; }
 
 
 #navbar-inner-left { width: 20%; float: left; }
@@ -89,3 +93,24 @@ header {
 }
 
 .fright { float: right !important;}
+
+#siderpr-left{
+   width: 24.9%;
+  border: 1px solid blue;
+  float: left;
+}
+#siderpr-right{
+  width: 24.9%;
+  border: 1px solid red;
+  float: right;
+}
+#side-middle-left{
+  width: 24.9%;
+  border: 1px solid Blue;
+  float: left;
+}
+#side-middle-right{
+  width: 24.9%;
+  border: 1px solid red;
+  float: right;
+}
