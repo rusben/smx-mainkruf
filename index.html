@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="stylesheet" type="text/css" href="maincruf.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body>
+    <header>
+      <div id="header-inner" >
+        <a class="derecha" href="https://minecraft.net/en-us/login/?ref=gm">Help</a>
+        <a class="derecha" href="https://minecraft.net/en-us/help/?ref=gm">Login &nbsp;</a>
+      </div>
+      <div class="clearfix"></div>
+    </header>
+
+  <nav id="navbar">
+  <div id="navbar-inner">
+        <div id="navbar-inner-left">
+          <a class="active" href="https://minecraft.net/en-us/store/minecraft/?ref=m">Descargas</a>
+          <a class="active" href="https://minecraft.net/en-us/realms/?ref=m">Realms</a>
+        </div>
+
+        <div id="navbar-inner-center">
+          <img src="mainkruf.png" alt="mainkruf"/>
+        </div>
+
+        <div id="navbar-inner-right">
+          <a class="active" href="https://minecraft.net/en-us/store/?ref=m">Tienda</a>
+          <a class="active" href="menu">Menu</a>
+        </div>
+        <div class="clearfix"></div>
+  </div>
+  </nav>
+      <center>
+        <img src="https://minecraft.net/static/pages/img/index-hero.e528a3b1fd01.png">
+      </center>
+        <div id="indice">
+            <div id=siderpr-left>
+               <p></p>
+            </div>
+            <div id=siderpr-right>
+               <p></p>
+            </div>
+            <div id=side-middle-left>
+               <p></p>
+            </div>
+            <div id=side-middle-right>
+               <p></p>
+            </div>
+        </div>
+
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+
+  </body>
+  </html>
