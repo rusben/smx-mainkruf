@@ -114,3 +114,49 @@ header {
   border: 1px solid red;
   float: right;
 }
+
+/*
+#main-banner{
+    background-repeat: repeat-x;
+    height:121px;
+    width: 984px;
+    margin-left: 20px;
+    margin-top: 13px;
+}
+
+#main-banner .banner-content{
+    width: 182px;
+    height: 121px;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-left: 9px;
+    margin-right:0px;
+    display:inline-block;
+    position:relative;
+}
+
+#main-banner .banner-content button {
+    position:absolute;
+    bottom:5px;
+    right:5px;
+    background:blue;
+    color:#FFF;
+}
+*/  
+
+
+.green-button {
+  position:relative;
+
+
+	background-color: #13AFDF;
+	border-radius: 6px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	font-size: 16px;
+	padding: 16px 24px;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;
+}
