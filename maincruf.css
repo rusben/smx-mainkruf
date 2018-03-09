@@ -97,7 +97,8 @@ font-size: 12px;}
 
 #siderpr-left{
    width: 30%;
-  border: 1px solid blue;
+   height: 176px;
+  border: 2px solid:white;
   float: left;
   background-color: #bf701b;
   color: white;
@@ -105,7 +106,8 @@ font-size: 12px;}
 }
 #siderpr-right{
   width: 30%;
-  border: 1px solid red;
+  height: 175px;
+  border: 2px solid white;
   float: left;
   background-color: #6f6d6a;
   color: white;
@@ -113,7 +115,8 @@ font-size: 12px;}
 }
 #side-middle-left{
   width: 30%;
-  border: 1px solid Blue;
+  height: 175px;
+  border: 2px solid white;
   float:left;
   background-color: #795548;
   color: white;
@@ -137,7 +140,7 @@ float:right;
 
 }
 
-/*
+
 #main-banner{
     background-repeat: repeat-x;
     height:121px;
@@ -164,7 +167,7 @@ float:right;
     background:blue;
     color:#FFF;
 }
-*/  
+
 
 
 .green-button {
