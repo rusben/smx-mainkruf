@@ -1,3 +1,5 @@
+* { box-sizing: border-box; }
+
 .clearfix {
 clear: both;
 
@@ -185,6 +187,17 @@ float:right;
 	text-transform: uppercase;
 	width: auto;
 }
+
+
+
+#news-wrapper { width: 80;}
+
+.news-row { width: 100%;}
+.news-item { float: left; }
+.news-item-w50 { width: 50%;}
+
+.clearfix { clear: both; }
+
 .big-box {
 	width: 100px;
 	height: 100px;
