@@ -190,6 +190,7 @@ float:right;
 }
 
 
+
 #news-wrapper { width: 80;}
 
 .news-row { width: 100%; }
@@ -198,6 +199,7 @@ float:right;
 
 .clearfix { clear: both; }
 
+<<<<<<< HEAD
 #mainsub-menu { width: 100%; }
 
 #mainsub-menu-inner { text-align: center; margin: 0 auto; width: 50%;}
@@ -257,3 +259,15 @@ li a:hover {
         -o-transform : scale(1.2);        /* Opera */
 
     }
+.big-box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	-webkit-transition: width 5s linear 0s, background-color 4s ease-in-out 1s; /* For Safari 3.1 to 6.0 */
+	transition: width 5s linear 0s, background-color 4s ease-in-out 1s;
+}
+.big-box:hover {
+  height: 300px;
+	width: 300px;
+	background-color: yellow;
+}
