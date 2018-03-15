@@ -190,23 +190,39 @@ float:right;
 
 
 
-#news-wrapper { width: 80;}
+#news-wrapper { width: 80; }
 
-.news-row { width: 100%;}
+.news-row { width: 100%; }
 .news-item { float: left; }
-.news-item-w50 { width: 50%;}
-
+.news-item-w50 { width: 50%; }
 .clearfix { clear: both; }
 
-.big-box {
-	width: 100px;
-	height: 100px;
-	background-color: blue;
-	-webkit-transition: width 5s linear 0s, background-color 4s ease-in-out 1s; /* For Safari 3.1 to 6.0 */
-	transition: width 5s linear 0s, background-color 4s ease-in-out 1s;
-}
-.big-box:hover {
-  height: 300px;
-	width: 300px;
-	background-color: yellow;
-}
+.zoom{
+
+        /* Aumentamos la anchura y altura durante 2 segundos */
+
+        transition: width 0.5s, height 0.5s, transform 0.5s;
+
+        -moz-transition: width 0.5s, height 0.5s, -moz-transform 0.5s;
+
+        -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
+
+        -o-transition: width 0.5s, height 0.5s,-o-transform 0.5s;
+
+    }
+
+    .zoom:hover{
+
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+
+           su tamaño con scale(2). */
+
+        transform : scale(1.2);
+
+        -moz-transform : scale(1.2);      /* Firefox */
+
+        -webkit-transform : scale(1.2);   /* Chrome - Safari */
+
+        -o-transform : scale(1.2);        /* Opera */
+
+    }
