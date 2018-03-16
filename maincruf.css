@@ -191,9 +191,10 @@ float:right;
 
 
 
-#news-wrapper { width: 80;}
+#news-wrapper { width: 80; }
 
 .news-row { width: 100%; }
+
 .news-item { float: left;  overflow: hidden; }
 .news-item-w50 { width: 50%;}
 
@@ -233,6 +234,14 @@ li a:hover {
 .zoom{
 
 
+
+.news-item { float: left; }
+.news-item-w50 { width: 50%; }
+.clearfix { clear: both; }
+
+.zoom{
+
+
         /* Aumentamos la anchura y altura durante 2 segundos */
 
         transition: width 0.5s, height 0.5s, transform 0.5s;
@@ -257,3 +266,21 @@ li a:hover {
 
         -o-transform : scale(1.2);        /* Opera */
     }
+<<<<<<< HEAD
+=======
+
+.big-box {
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	-webkit-transition: width 5s linear 0s, background-color 4s ease-in-out 1s; /* For Safari 3.1 to 6.0 */
+	transition: width 5s linear 0s, background-color 4s ease-in-out 1s;
+}
+.big-box:hover {
+  height: 300px;
+	width: 300px;
+	background-color: yellow;
+}
+
+
+>>>>>>> 84e9031901744204d8c0acc0e8d4c60864f98e90
