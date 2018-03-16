@@ -70,10 +70,10 @@ header {
 
 
 
-
+#navbar {z-index: 1000;}
 #header-inner { background-color: #010101 width: 60%; margin: 0 auto; }
 
-#navbar-inner { width: 60%; margin: 0 auto; }
+#navbar-inner { width: 60%; margin: 0 auto;}
 
 
 #navbar-inner-left { width: 20%; float: left; }
@@ -256,7 +256,6 @@ li a:hover {
         -webkit-transition: width 0.5s, height 0.5s, -webkit-transform 0.5s;
 
         -o-transition: width 0.5s, height 0.5s,-o-transform 0.5s;
-
     }
 
     .zoom:hover{
@@ -271,8 +270,8 @@ li a:hover {
         -webkit-transform : scale(1.2);   /* Chrome - Safari */
 
         -o-transform : scale(1.2);        /* Opera */
-
     }
+
 
 .big-box {
 	width: 100px;
@@ -286,3 +285,4 @@ li a:hover {
 	width: 300px;
 	background-color: yellow;
 }
+
