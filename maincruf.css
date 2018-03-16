@@ -82,7 +82,12 @@ header {
 #navbar-inner-center { width: 60%; float: left; text-align: center; }
 
 #indice { width: 70%; margin: 0 auto;
-font-size: 12px;}
+font-size: 12px;
+transition: transform 0.5s linear;
+    -webkit-transition: -webkit-transform 0.5s linear;
+    -moz-transition: -moz-transform 0.5s linear;
+    -o-transition: -o-transform 0.5s linear;
+}
 
 
 
@@ -266,8 +271,7 @@ li a:hover {
 
         -o-transform : scale(1.2);        /* Opera */
     }
-<<<<<<< HEAD
-=======
+
 
 .big-box {
 	width: 100px;
@@ -282,5 +286,3 @@ li a:hover {
 	background-color: yellow;
 }
 
-
->>>>>>> 84e9031901744204d8c0acc0e8d4c60864f98e90
